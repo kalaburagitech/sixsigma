@@ -138,12 +138,68 @@ export default function ProductsPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-800 mb-4">
-              Our Products
+              Products and Services
             </h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               6sigma offers a comprehensive range of high-quality metals and
               electronic components. Our products meet international standards
               and are suitable for various industrial applications.
+            </p>
+          </div>
+
+          <div className="mb-16 bg-gradient-to-r from-teal-50 to-blue-50 rounded-lg p-8">
+            <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
+              Our Services
+            </h2>
+            <div className="flex flex-col lg:flex-row items-center gap-8">
+              <div className="lg:w-1/2">
+                <Image
+                  src="/images/manpower.jpeg"
+                  alt="Manpower Supply Services"
+                  width={500}
+                  height={300}
+                  className="w-full h-64 object-cover rounded-lg shadow-lg"
+                />
+              </div>
+              <div className="lg:w-1/2 text-center lg:text-left">
+                <h3 className="text-2xl font-semibold text-teal-600 mb-4">
+                  Manpower Supply
+                </h3>
+                <p className="text-gray-700 text-lg leading-relaxed mb-4">
+                  We provide skilled technical manpower for various industrial
+                  projects and maintenance operations. Our experienced
+                  professionals are trained to handle complex industrial
+                  requirements with precision and expertise.
+                </p>
+                <ul className="text-gray-600 space-y-2">
+                  <li className="flex items-center">
+                    <span className="text-teal-600 mr-2">✓</span>
+                    Skilled technical professionals
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-teal-600 mr-2">✓</span>
+                    Industrial project support
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-teal-600 mr-2">✓</span>
+                    Maintenance operations
+                  </li>
+                  <li className="flex items-center">
+                    <span className="text-teal-600 mr-2">✓</span>
+                    Quality assurance
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">
+              Our Products
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Explore our comprehensive range of high-quality metals and
+              electronic components for industrial applications.
             </p>
           </div>
 
@@ -187,32 +243,6 @@ export default function ProductsPage() {
                 </CardContent>
               </Card>
             ))}
-          </div>
-
-          <div className="mt-16 bg-gray-50 rounded-lg p-8">
-            <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">
-              Our Services
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="text-center">
-                <h3 className="text-xl font-semibold text-teal-600 mb-4">
-                  Manpower Supply
-                </h3>
-                <p className="text-gray-600">
-                  We provide skilled technical manpower for various industrial
-                  projects and maintenance operations.
-                </p>
-              </div>
-              <div className="text-center">
-                <h3 className="text-xl font-semibold text-teal-600 mb-4">
-                  Custom Solutions
-                </h3>
-                <p className="text-gray-600">
-                  Tailored metal solutions designed to meet your specific
-                  industrial requirements and applications.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </main>

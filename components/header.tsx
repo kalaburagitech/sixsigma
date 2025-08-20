@@ -28,7 +28,7 @@ export default function Header() {
             </div>
             <div className="text-center sm:text-left">
               <h1 className="text-2xl font-bold text-teal-600">6sigma</h1>
-              <p className="text-sm text-gray-600">Metal Supply Corporation</p>
+              <p className="text-sm text-gray-600">Together Towards Tomorrow</p>
             </div>
           </Link>
 
